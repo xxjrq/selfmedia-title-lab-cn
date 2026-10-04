@@ -1,6 +1,8 @@
 # 自媒体标题改写
 
-免费、免第三方 API Key 的中文标题改写 Skill。它复用你给出的正文事实，为抖音、小红书、B站各写 3 条差异化标题，再挑出最贴合正文的一条；不承诺爆款，也不把任务扩展成视频制作或发布流程。
+![自媒体标题改写](assets/promo-1600x900.png)
+
+同一篇正文，为抖音、小红书、B站各写 3 条不同角度的标题，再推荐最贴合内容的一条。输入核心收益、正文和目标平台即可，不必反复解释背景；适合内容发布前改标题和商品内容选题，不需要浏览器或额外 API Key。
 
 ## 立即使用
 
@@ -29,15 +31,16 @@
 
 ```bash
 node scripts/self-test.mjs
-node ../skill-seo/scripts/audit.mjs --root . --output /tmp/selfmedia-title-lab-cn-seo --strict
 ```
 
-## 来源与原创性
+## 许可证
 
-本 Skill 的标题工作流、文案和代码均为原创实现。仅核对以下公开项目的业务用途和许可证，不复制其源码或文档；2026-10-04 核对时，`marketingskills` 与 `easy-webbridge` 的仓库许可证均为 MIT，`anthropics/skills` 的 GitHub 许可证接口未返回已识别许可证：
+本 Skill 提供原创标题改写指令与示例，采用 [MIT License](LICENSE)。
 
-- [marketingskills](https://github.com/coreyhaines31/marketingskills)（业务类 Skill 的公开发布参考）
-- [anthropics/skills](https://github.com/anthropics/skills)（Skill 组织方式参考）
-- [Easy WebBridge](https://github.com/xxjrq/easy-webbridge)（浏览器隔离能力参考；本 Skill 不需要浏览器）
+## 安装
 
-许可证见 [LICENSE](LICENSE)。
+```bash
+npx skills add xxjrq/selfmedia-title-lab-cn
+```
+
+也可以把本仓库目录复制到 Agent 的 Skills 目录，再用 `$selfmedia-title-lab-cn` 加上你的输入调用。

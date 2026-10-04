@@ -1,6 +1,8 @@
 # Self-media Title Rewriter
 
-A free Chinese title-rewriting Skill with no third-party API key required. It keeps the facts in your brief, produces three differentiated titles each for Douyin, Xiaohongshu, and Bilibili, and recommends the title that best matches the body. It does not promise virality or expand into video production or publishing.
+![Chinese social media title rewriting](assets/promo-1600x900.png)
+
+Turn one Chinese content brief into three differentiated titles each for Douyin, Xiaohongshu, and Bilibili, plus one recommendation. Provide the core benefit, body, and target platforms to get copy-ready options based on your facts. No browser or additional API key is required.
 
 ## Use it now
 
@@ -17,7 +19,14 @@ Provide a core benefit, body text, and one or more platforms. The Skill returns 
 
 ```bash
 node scripts/self-test.mjs
-node ../skill-seo/scripts/audit.mjs --root . --output /tmp/selfmedia-title-lab-cn-seo --strict
 ```
 
-The workflow, copy, and code are original. Public projects consulted only for business use and licensing context are listed in the Chinese README.
+Original title-writing instructions and examples, licensed under [MIT](LICENSE).
+
+## Install
+
+```bash
+npx skills add xxjrq/selfmedia-title-lab-cn
+```
+
+Alternatively, copy this repository folder into your Agent’s skill directory, then invoke `$selfmedia-title-lab-cn` with your input.

@@ -1,9 +1,9 @@
 name: selfmedia-title-lab-cn
 slug: selfmedia-title-lab-cn
-version: 1.0.0
+version: 1.0.1
 display_name: 自媒体标题改写
-description: 免费的中文标题改写 Skill：基于核心收益、正文和平台保留事实，为抖音、小红书、B站各生成三条差异化标题，并推荐最贴合正文的一条；不承诺爆款，不扩展视频制作或发布流程。
-repository: https://github.com/selfmedia-skills/selfmedia-title-lab-cn
+description: 中文自媒体标题改写：输入核心收益、正文和目标平台，为抖音、小红书、B站各生成三条不同角度的标题，并推荐最贴合正文的一条；适合内容发布前改标题、商品内容标题和多平台文案整理。
+repository: https://github.com/xxjrq/selfmedia-title-lab-cn
 license: MIT
 icon: icon-512.png
 tags:
